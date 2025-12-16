@@ -16,9 +16,9 @@ Nyaya AI (Sanskrit: न्याय, meaning "Justice") is an advanced legal int
 - Production-Ready Interface: Beautiful Streamlit-based chatbot with glassmorphic UI
 
 <p align="center">
-  <img src="Demo1.gif" width="220" />
-  <img src="Demo2.gif" width="220" />
-  <img src="Demo3.gif" width="220" />
+  <img src="Demo1.gif" width="240" />
+  <img src="Demo2.gif" width="240" />
+  <img src="Demo3.gif" width="240" />
 </p>
 
 ## Features
