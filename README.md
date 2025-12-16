@@ -1,6 +1,6 @@
-# Nyaya AI: A Neuro-Symbolic Legal Intelligence System
+# Nyaya AI: A Neuro-Symbolic AI Legal System
 
-A comprehensive neurosymbolic AI system for Indian legal research combining knowledge graphs, graph neural networks, and LLM reasoning.
+An AI-driven legal research system built for Indian jurisprudence, combining structured legal knowledge with neural representation learning to support accurate case retrieval, statutory analysis, and explainable legal reasoning across Indian courts.
 
 ## Overview
 
@@ -14,8 +14,6 @@ Nyaya AI (Sanskrit: न्याय, meaning "Justice") is an advanced legal int
 - Two-Stage Neurosymbolic Retrieval: Hybrid approach combining text (70%), GAT context (15%), and symbolic legal features (15%)
 - Reasoning Transparency: Local DeepSeek-R1 integration providing explainable legal analysis
 - Production-Ready Interface: Beautiful Streamlit-based chatbot with glassmorphic UI
-
-## Demo
 
 <p align="center">
   <img src="Demo1.gif" width="220" />
