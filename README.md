@@ -27,7 +27,7 @@ Nyaya AI (Sanskrit: न्याय, meaning "Justice") is an advanced legal int
 
 ### Core Capabilities
 
-- Semantic Legal Search**: SBERT-powered semantic similarity across 56K+ cases and statutory provisions
+- Semantic Legal Search: SBERT-powered semantic similarity across 56K+ cases and statutory provisions
 - Citation Network Analysis: PageRank-based importance scoring and precedent discovery
 - Court Hierarchy Awareness: Automatic prioritization of Supreme Court over High Court judgments
 - Statutory Grounding: Integration with IPC, CrPC, Constitution, and Evidence Act provisions
@@ -44,7 +44,7 @@ Nyaya AI (Sanskrit: न्याय, meaning "Justice") is an advanced legal int
 ## System Architecture
 
 ```
-Web Scraping from Indian Kanoon (56k Cases) → Preprocessing to obtain JSON files → Knowledge Graph Construction based on IndiLegalOnt for the case and statutory law files (154k nodes, 725k edges) → GNN Training based on KG (3 layers, 4 attention heads, 5e-4 learning rate) → Two-Stage Retrieval [Text Search (70) + Neurosymbolic Reranking (GAT+Symbolic - 15+15)] → Local DeepSeek-R1 LLM Reasoning → Chat Interface and Visualizations via Streamlit UI
+Web Scraping from Indian Kanoon (56k Cases) → Preprocessing to obtain JSON files → Knowledge Graph Construction based on IndiLegalOnt for the case and statutory law files (154k nodes, 725k edges) → GNN Training based on KG (3 layers, 4 attention heads) → Two-Stage Retrieval [Text Search (70) + Neurosymbolic Reranking (GAT+Symbolic, 15+15)] → Local DeepSeek-R1 LLM Reasoning → Chat Interface and Visualizations via Streamlit UI
 ```
 
 ### Pipeline Stages
@@ -55,7 +55,7 @@ Web Scraping from Indian Kanoon (56k Cases) → Preprocessing to obtain JSON fil
 4. Two-Stage Retrieval: Hybrid neurosymbolic ranking
 5. LLM Integration: Response generation with reasoning transparency
 
-## Dataset
+## The Dataset
 
 ### Statistics
 
@@ -72,7 +72,7 @@ Web Scraping from Indian Kanoon (56k Cases) → Preprocessing to obtain JSON fil
 ### Court Distribution
 
 ```
-Supreme Court of India     : 9,979 cases
+Supreme Court of India    : 9,979 cases
 Delhi High Court          : 8,821 cases
 Bombay High Court         : 9,436 cases
 Calcutta High Court       : 9,584 cases
@@ -135,7 +135,7 @@ Q: Search for defamation cases
 
 ## How to Run
 
-1. Make sure you have Python 3.8+ installed.
+1. Make sure Python 3.8+ is installed.
 2. Clone this repository on your local machine.
 3. Install the required dependencies:
 ```bash
@@ -153,3 +153,5 @@ For detailed methodology and results, you may refer to the uploaded research pap
 Contributions are welcome!
 
 ## License
+
+Distributed under the MIT License. 
