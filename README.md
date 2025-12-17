@@ -13,7 +13,7 @@ Nyaya AI (Sanskrit: न्याय, meaning "Justice") is an advanced legal int
 - Graph Neural Networks: GAT model achieving 96.55% F1-score on legal entity classification
 - Two-Stage Neurosymbolic Retrieval: Hybrid approach combining text (70%), GAT context (15%), and symbolic legal features (15%)
 - Reasoning Transparency: Local DeepSeek-R1 integration providing explainable legal analysis
-- Production-Ready Interface: Beautiful Streamlit-based chatbot with glassmorphic UI
+- Production-Ready Interface: Beautiful Streamlit-based chatbot with easy-to-use UI
 
 ###
 
