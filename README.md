@@ -142,7 +142,7 @@ Q: Search for defamation cases
 pip install streamlit==1.28.0 sentence-transformers==2.2.2 transformers==4.30.0 networkx==3.1 matplotlib==3.7.1 pandas==2.0.3 numpy==1.24.3 scipy==1.11.1 beautifulsoup4==4.12.2 lxml==4.9.3 selenium==4.15.2 webdriver-manager==4.0.1 requests==2.31.0 tqdm==4.65.0 PyPDF2==3.0.1 spacy==3.6.1 owlready2==0.43 scikit-learn==1.3.0 ollama==0.1.7
 ```
 4. Install Ollama & set up DeepSeek-R1 (7b).
-5. Run all the files, one-by-one, starting from data extraction, then building the KG, and training the GNN. After that, you may directly run the chatbot python file to access the system via the streamlit interface.
+5. Run all the files, one-by-one, starting from data extraction, then building the KG, and training the GNN. After that, you can directly run the chatbot python file to access the system via the streamlit interface.
 
 ## Research Paper
 
