@@ -144,10 +144,6 @@ pip install streamlit==1.28.0 sentence-transformers==2.2.2 transformers==4.30.0 
 4. Install Ollama & set up DeepSeek-R1 (7b).
 5. Run all the files, one-by-one, starting from data extraction, then building the KG, and training the GNN. After that, you can directly run the chatbot python file to access the system via the streamlit interface.
 
-## Research Paper
-
-For detailed methodology and results, you may refer to the uploaded research paper `Nyaya AI.pdf`.
-
 ## Contributing
 
 Contributions are welcome!
