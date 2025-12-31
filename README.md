@@ -105,7 +105,7 @@ Madras High Court         : 9,807 cases
 |--------|-------|
 | Test Accuracy | 94.48% |
 | Test F1-Score | 96.55% |
-| Precision** | 99.22% |
+| Precision | 99.22% |
 | Recall | 94.48% |
 
 ### Comparative Analysis
