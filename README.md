@@ -93,28 +93,22 @@ Madras High Court         : 9,807 cases
 
 ### Retrieval Performance
 
-| Metric | Score |
-|--------|-------|
-| Precision@5 | 0.89 |
-| NDCG@5 | 0.93 |
-| Response Quality | 4.61/5.0 |
-
-### GAT Model Performance
-
-| Metric | Score |
-|--------|-------|
-| Test Accuracy | 94.48% |
-| Test F1-Score | 96.55% |
-| Precision | 99.22% |
-| Recall | 94.48% |
+| Metric            | Score              |
+|-------------------|--------------------|
+| Precision@1       | 0.80               |
+| Precision@3       | 0.83               |
+| Precision@5       | 0.84               |
+| NDCG@5            | 0.88               |
+| Response Quality  | 4.61 / 5.0         |
 
 ### Comparative Analysis
 
-| Approach | P@5 | NDCG@5 |
-|----------|-----|--------|
-| Text-only (SBERT) | 0.74 | 0.82 |
-| Text + Symbolic | 0.83 | 0.88 |
-| Nyaya AI (Full) | 0.89 | 0.93 |
+| Approach          | P@5  | NDCG@5 |
+|-------------------|------|--------|
+| BM25              | 0.62 | 0.69   |
+| Text-only (SBERT) | 0.69 | 0.76   |
+| Text + Symbolic   | 0.77 | 0.82   |
+| Nyaya AI (Full)   | 0.84 | 0.88   |
 
 ## Example Queries
 
