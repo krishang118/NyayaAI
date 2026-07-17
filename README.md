@@ -105,8 +105,10 @@ Madras High Court         : 9,807 cases
 
 | Approach          | P@5  | NDCG@5 |
 |-------------------|------|--------|
-| BM25              | 0.62 | 0.69   |
-| Text-only (SBERT) | 0.69 | 0.76   |
+| BM25              | 0.62 | 0.68   |
+| SBERT MiniLM      | 0.69 | 0.74   |
+| BGE M3-Embedding  | 0.75 | 0.81   |
+| BM25 + BGE-M3 (RRF)| 0.79 | 0.84  |
 | Text + Symbolic   | 0.77 | 0.82   |
 | Nyaya AI (Full)   | 0.84 | 0.88   |
 
@@ -133,7 +135,7 @@ Q: Search for defamation cases
 2. Clone this repository on your local machine.
 3. Install the required dependencies:
 ```bash
-pip install streamlit==1.28.0 sentence-transformers==2.2.2 transformers==4.30.0 networkx==3.1 matplotlib==3.7.1 pandas==2.0.3 numpy==1.24.3 scipy==1.11.1 beautifulsoup4==4.12.2 lxml==4.9.3 selenium==4.15.2 webdriver-manager==4.0.1 requests==2.31.0 tqdm==4.65.0 PyPDF2==3.0.1 spacy==3.6.1 owlready2==0.43 scikit-learn==1.3.0 ollama==0.1.7
+pip install streamlit==1.28.0 sentence-transformers==2.2.2 transformers==4.30.0 networkx==3.1 matplotlib==3.7.1 pandas==2.0.3 numpy==1.24.3 scipy==1.11.1 beautifulsoup4==4.12.2 lxml==4.9.3 selenium==4.15.2 webdriver-manager==4.0.1 requests==2.31.0 tqdm==4.65.0 PyPDF2==3.0.1 spacy==3.6.1 owlready2==0.43 scikit-learn==1.3.0 ollama==0.1.7 rank_bm25==0.2.2 FlagEmbedding==1.2.9
 ```
 4. Install Ollama & set up DeepSeek-R1 (7b).
 5. Run all the files, one-by-one, starting from data extraction, then building the KG, and training the GNN. After that, you can directly run the chatbot python file to access the system via the streamlit interface.
